@@ -35,14 +35,19 @@ public class Trichytrains {
  day="Wednesday";
  
  //display information
+ 
  System.out.println(day+"\t"+depTimes[i]+"\t"+passengers[i]);
+ 
  break;
+ 
  }
  }
 }
+
 case 2:
  //most popular train
- int max =passengers[0];
+
+int max =passengers[0];
 
  int min = passengers[0];
 
@@ -57,6 +62,7 @@ for(int i=0;passengers[i].length,i++){
    max=passengers[i];
 
    index1=i;
+
 }
 
 if(passengers[i]<min){
@@ -64,6 +70,7 @@ if(passengers[i]<min){
    min=passengers[i];
 
    index2=i;
+
 }
 }
 
@@ -82,7 +89,8 @@ if(passengers[i]<min){
 
  System.out.println("deptimes:9.04""\n"day:monday"\t"passengers:119"\n\n"day:tuesday
 "\t"passengers:111"\n"day:wednesday"\t"passengers:107);
-  double p =6.04,q =9.04;
+
+double p =6.04,q =9.04;
  
  double c11=22,c12=22,c13=11,c21=119,c22=111,c23=107;
  
@@ -91,12 +99,14 @@ if(passengers[i]<min){
 {
 
 System.out.println("6.04 train is popular");
+
 }
 
 else
 {
 
 System.out.println("9.04 train is popular");
+
 }
 
 //6.04 train on monday is more popular than the6.04 train on tuesday
@@ -104,10 +114,12 @@ System.out.println("9.04 train is popular");
   if(passengers[0][0]>passengers[0][1]){
     
    system.out.println("6.04 train on monday is more popular");
+
 }
 else{
 
 System.out.println("6.04 train on tuesday is more popular");
+
 } 
 
 //display day and train with passsengers below 50
@@ -120,6 +132,7 @@ for(int passengers[i]=0;passengers[i]<50,passengers[i]++)
    index=passengers[i];
    
    System.out.println(day"\t "depTimes+day+"\t"depTimes[index]);
+
 }
 //average number of passengers travelled on 12.04 train
 
@@ -152,20 +165,24 @@ for(int i=0;i<3;i++){
  for(int j=0;j<5;j++){
 
   if(passengers[j]=50){
+
    System.out.println("day:"+dau[i]+"\ndepTimes:"+depTimes[0]+"\npassengers:"
 passengers:"+passengeres[j]");
+
 }
 
   else if(passengers[j]<50)
 {
    System.out.println("day:"+day[i]+"\ndepTimes:"+deptimes[1]+"\npassengers:"
 passengers:"+passengers[j]");
+
 }
 
   else if(passengers[j]<50)
 {
    System.out.println("day:"+day[i]+"\ndepTimes:"+deptimes[1]+"\npassengers:"
 passengers:"+passengers[j]");
+
 }
 }
 }
@@ -173,9 +190,11 @@ passengers:"+passengers[j]");
 //the average number of passanger traveling on the 12.04 train over three days
 
 int g, y=64,m=87,n=93,d;
- System.out.println("monday\n\t passangers:64\n tuesday\n\tpassangers:87\n\tpassanger"
+
+System.out.println("monday\n\t passangers:64\n tuesday\n\tpassangers:87\n\tpassanger"
 + "\n\t passanger:93");d=y+m+n;
- System.out.println("The average passangers:"+d/3);
+
+System.out.println("The average passangers:"+d/3);
 
 //the average num of passanger where day and is specified by user
 
@@ -214,6 +233,7 @@ for(intj=0;j<=5;j++)
 {
    
    System.out.println("The average passanger:ty13[13];");
+
 }}
 
  else if(nm1.contentequals(ipll[1]))
@@ -222,7 +242,9 @@ for(intj=0;j<=5;j++)
   if(oi11==oi12[j]){
    
    System.out.println("the average passangers+ty12[j]");
+
 }}}
+
 //quit
 
 system.exit(0);
