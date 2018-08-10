@@ -2,7 +2,9 @@
 Coding:
 package trichytrains;
 public class Trichytrains {
+
  public static void main(String[] args) {
+ 
  String[] depTimes={"6.04","9.04","12.04","15.04","19.04","6.04","9.04",
  "12.04","15.04","19.04","6.04","9.04","12.04","15.04",
  "19.04"};
