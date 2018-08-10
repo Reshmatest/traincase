@@ -8,9 +8,12 @@ public class Trichytrains {
  String[] depTimes={"6.04","9.04","12.04","15.04","19.04","6.04","9.04",
  "12.04","15.04","19.04","6.04","9.04","12.04","15.04",
  "19.04"};
+ 
  int[] passengers={22,119,64,177,21,22,111,87,193,22,11,107,93,162,42};
+ 
  //1.display the data
  System.out.println("Chennai to trichy service");
+ 
  System.out.println("Day\tTime\tpassengers");
  String day="";
  for(int i=0;i<15;i++){
