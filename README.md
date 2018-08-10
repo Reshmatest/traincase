@@ -17,6 +17,7 @@ public class Trichytrains {
  System.out.println("Day\tTime\tpassengers");
  
  String day="";
+ 
  for(int i=0;i<15;i++){
  //find out the day
  if(i>=0&&i<5)
